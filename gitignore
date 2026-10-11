@@ -1,0 +1,14 @@
+# Archivos generados por PyInstaller
+build/
+dist/
+*.spec
+
+# Nunca subir documentos ni resultados con datos reales
+*.pdf
+*.xlsx
+*.XLSX
+pdfs/
+
+# Python
+__pycache__/
+*.pyc
