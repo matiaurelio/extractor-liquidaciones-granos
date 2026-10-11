@@ -1,6 +1,6 @@
 # Extractor de Liquidaciones de Granos (PDF → Excel)
 
-Programa en Python que lee **liquidaciones primarias de granos de AFIP** en PDF y arma un Excel con los datos que importan, sin cargarlos a mano.
+Programa en Python que lee **liquidaciones primarias de granos de ARCA** en PDF y arma un Excel con los datos que importan, sin cargarlos a mano.
 
 Incluye una **ventanita** (para usarlo sin saber programar) y una **versión por terminal**.
 
@@ -54,13 +54,6 @@ El código GUI está dividido en secciones comentadas. Para adaptarlo a otro tip
 
 ## Limitaciones
 
-- Está ajustado al formato de PDF de "Liquidación Primaria de Granos" de AFIP. Otros formatos pueden requerir cambios en las expresiones regulares.
+- Está ajustado al formato de PDF de "Liquidación Primaria de Granos" de ARCA. Otros formatos pueden requerir cambios en las expresiones regulares.
 - La opción "abrir el Excel al terminar" funciona solo en Windows.
 
-## Privacidad
-
-Este repositorio no incluye PDF ni datos de ninguna persona o empresa.
-
-## Cómo se hizo
-
-Desarrollado con asistencia de IA (Claude, de Anthropic), probado y ajustado con documentos reales.
