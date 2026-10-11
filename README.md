@@ -4,8 +4,6 @@ Programa en Python que lee **liquidaciones primarias de granos de ARCA** en PDF 
 
 Incluye una **ventanita** (para usarlo sin saber programar) y una **versión por terminal**.
 
-> **Captura de pantalla:** agregá acá una imagen de la ventana del programa (usá PDF de prueba, nunca datos reales).
-
 ## Qué extrae de cada PDF
 
 | Columna | De dónde sale |
