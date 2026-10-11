@@ -139,7 +139,7 @@ def extraer_fecha(texto_completo):
 
 
 def extraer_coe(texto_completo):
-    """Número de C.O.E. (identificador único de la liquidación en AFIP)."""
+    """Número de C.O.E. (identificador único de la liquidación en ARCA)."""
     m = re.search(r"C\.O\.E\.:\s*(\d+)", texto_completo)
     return m.group(1) if m else None
 
